@@ -1,7 +1,7 @@
 # UTCN Software Design Resources
 
 ## Presentations
-The [intro presentation](https://slides.com/spet/utcn-sd-intro) has information about:
+The [intro presentation](https://slides.com/spet/utcn-sd-intro) [[live](https://slides.com/spet/utcn-sd-intro/live)] has information about:
  * Attendance,
  * Rules,
  * Grading,
@@ -10,11 +10,11 @@ The [intro presentation](https://slides.com/spet/utcn-sd-intro) has information 
  * And project overview.
 
 Assignment presentations:
- * The [assignment topic presentation](https://slides.com/spet/utcn-sd-assignment-topic) has information about the business topic of our assignments and its features.
- * The [assignment 1 presentation](https://slides.com/spet/utcn-sd-assignment-1) contains explanations about the layered architecture, the data source patterns, the domain logic patterns and the abstract factory design pattern.
+ * The [assignment topic presentation](https://slides.com/spet/utcn-sd-assignment-topic) [[live](https://slides.com/spet/utcn-sd-assignment-topic/live)] has information about the business topic of our assignments and its features.
+ * The [assignment 1 presentation](https://slides.com/spet/utcn-sd-assignment-1) [[live](https://slides.com/spet/utcn-sd-assignment-1/live)] contains explanations about the layered architecture, the data source patterns, the domain logic patterns and the abstract factory design pattern.
 
 Project presentations:
- * The [project deliverables presentation](https://slides.com/spet/utcn-sd-deliverables) has information about each document for the project deliverables.
+ * The [project deliverables presentation](https://slides.com/spet/utcn-sd-deliverables) [[live](https://slides.com/spet/utcn-sd-deliverables/live)] has information about each document for the project deliverables.
 
 ## Attendance and grades
 Can be found on [this spreadsheet](https://docs.google.com/spreadsheets/d/1PdbHr07erqH4lD7RDOOJ9-QOGVxWhRE1oNSXc6jtfqM/edit?usp=sharing).
@@ -43,8 +43,8 @@ The deadline for each assignment / deliverable / project is **Sunday 23:59** bef
 ## GitHub Classroom Assignments
 You must click on the below links to create a GitHub repository for submitting your assignments and project (deliverables, final documentation and code).
 
- * Project: TBD
- * Assignment 1: TBD
+ * Project: https://classroom.github.com/a/kPxIhQZn
+ * Assignment 1: https://classroom.github.com/a/lZoe1WSR
  * Assignment 2: TBD
  * Assignment 3: TBD
 
