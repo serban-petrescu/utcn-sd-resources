@@ -16,6 +16,9 @@ Assignment presentations:
 Project presentations:
  * The [project deliverables presentation](https://slides.com/spet/utcn-sd-deliverables) [[live](https://slides.com/spet/utcn-sd-deliverables/live)] has information about each document for the project deliverables.
 
+## Project topics
+Can be found on [this spreadsheet](https://docs.google.com/spreadsheets/d/1RJ82nQmHGryjQuqGMl8EIrCY7k9rLowDExs2_wM6tuA/edit?usp=sharing). Please add your project if you did not already do so.
+
 ## Attendance and grades
 Can be found on [this spreadsheet](https://docs.google.com/spreadsheets/d/1PdbHr07erqH4lD7RDOOJ9-QOGVxWhRE1oNSXc6jtfqM/edit?usp=sharing).
 
