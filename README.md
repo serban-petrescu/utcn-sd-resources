@@ -22,6 +22,14 @@ Can be found on [this spreadsheet](https://docs.google.com/spreadsheets/d/1RJ82n
 ## Attendance and grades
 Can be found on [this spreadsheet](https://docs.google.com/spreadsheets/d/1PdbHr07erqH4lD7RDOOJ9-QOGVxWhRE1oNSXc6jtfqM/edit?usp=sharing).
 
+## YouTube videos
+All of the recordings may be found on this playlist: [UTCN Software Design 2019](https://www.youtube.com/playlist?list=PLFVVA9FdSLI3GzulGsej25e-JzOZK8DGo).
+
+## Questionnaires
+ - [First laboratory introductory form](https://docs.google.com/forms/d/e/1FAIpQLSciNfhGmgy9sQ25QTO6m2Bd6wHbXvljaswMQ8YaPv6KR4xkKg/viewform?usp=sf_link). 
+ - [Optional form for improving company training program](https://docs.google.com/forms/d/e/1FAIpQLSfTAnX7ch6UJyjyORDJlbxqDFbPO8-eaIyUo2ghzv4xXAhcxw/viewform?usp=sf_link).
+
+
 ## Schedule 
 | Week | First Hour                                                                   | Second Hour                                                                                       | Third Hour                                                                                |
 |------|------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|
