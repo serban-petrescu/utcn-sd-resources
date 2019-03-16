@@ -13,6 +13,8 @@ import java.util.Optional;
 
 @RequiredArgsConstructor
 public class JdbcStudentRepository implements StudentRepository {
+	// The Jdbc template is a helper class for doing JDBC operations (usually "templates" simplify common tasks)
+	// check out https://spring.io/guides/gs/relational-data-access/
 	private final JdbcTemplate template;
 
 	@Override
@@ -42,6 +44,7 @@ public class JdbcStudentRepository implements StudentRepository {
 	}
 
 	private int insert(Student student) {
+		// we use the SimpleJdbcInsert to easily retrieve the generated ID
 		SimpleJdbcInsert insert = new SimpleJdbcInsert(template);
 		insert.setTableName("student");
 		insert.usingGeneratedKeyColumns("id");

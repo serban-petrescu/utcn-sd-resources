@@ -10,11 +10,15 @@ import ro.utcn.spet.example.a1.repository.StudentRepository;
 
 import java.util.List;
 
+// The @Service is a specialized @Component (https://www.baeldung.com/spring-component-repository-service)
 @Service
 @RequiredArgsConstructor
 public class StudentManagementService {
 	private final RepositoryFactory repositoryFactory;
 
+	// Transactional methods ensure that the code contained inside is run in a transaction, which is committed
+	// when the methods returns and is rolled-back when an exception is thrown
+	// http://www.codingpedia.org/jhadesdev/how-does-spring-transactional-really-work/
 	@Transactional
 	public List<Student> listStudents() {
 		return repositoryFactory.createStudentRepository().findAll();

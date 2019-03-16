@@ -11,6 +11,8 @@ import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.atomic.AtomicInteger;
 
 public class InMemoryStudentRepository implements StudentRepository {
+	// we want to be thread-safe, because this class will be a singleton (just one instance)
+	// in order to not use synchronized methods, we use thread-safe classes (ConcurrentHashMap and AtomicInteger)
 	private final Map<Integer, Student> data = new ConcurrentHashMap<>();
 	private final AtomicInteger currentId = new AtomicInteger(0);
 

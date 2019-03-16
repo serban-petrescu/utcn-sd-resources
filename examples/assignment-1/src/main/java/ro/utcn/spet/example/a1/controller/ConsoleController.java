@@ -11,6 +11,8 @@ import java.util.Scanner;
 
 @Component
 @RequiredArgsConstructor
+// Command line runners are executed by Spring after the initialization of the app has been done
+// https://www.baeldung.com/spring-boot-console-app
 public class ConsoleController implements CommandLineRunner {
 	private final Scanner scanner = new Scanner(System.in);
 	private final StudentManagementService studentManagementService;

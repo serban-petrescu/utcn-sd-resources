@@ -12,6 +12,7 @@ import ro.utcn.spet.example.a1.repository.StudentRepository;
 
 @Component
 @RequiredArgsConstructor
+// The Order ensures that this command line runner is ran first (before the ConsoleController)
 @Order(Ordered.HIGHEST_PRECEDENCE)
 public class StudentSeed implements CommandLineRunner {
 	private final RepositoryFactory factory;

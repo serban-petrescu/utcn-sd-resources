@@ -16,6 +16,9 @@ public class HibernateStudentRepository implements StudentRepository {
 
 	@Override
 	public List<Student> findAll() {
+		// the criteria builder is used to create a type-safe query; an alternative would have been
+		// to write a JPQL query instead ("SELECT s FROM Student s") or to use named queries
+		// https://docs.jboss.org/hibernate/entitymanager/3.5/reference/en/html/querycriteria.html
 		CriteriaBuilder builder = entityManager.getCriteriaBuilder();
 		CriteriaQuery<Student> query = builder.createQuery(Student.class);
 		query.select(query.from(Student.class));
