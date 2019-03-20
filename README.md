@@ -31,25 +31,24 @@ All of the recordings may be found on this playlist: [UTCN Software Design 2019]
 
 
 ## Schedule 
-| Week | First Hour                                                                   | Second Hour                                                                                       | Third Hour                                                                                |
-|------|------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|
-| 1    | Get to know each other                                                       | Introduction and rules                                                                            | Revision OOP<br>Revision DB                                                               |
-| 2    | Revision UML<br>SOLID<br>Picking assignment topic                            | *Assignment 1 presentation*<br>Discussion about layers / patterns                                 | Picking project topics<br>*Deliverables presentation*                                     |
-| 3    | Discussion about patterns / layers<br>Individual work / live coding          | Individual work / live coding                                                                     | Picking project topics - final deadline<br>Deliverable 1 status update and clarifications |
-| 4    | Assignment 1 clarifications<br>Individual work / live coding                 | Assignment 1 clarifications<br>Individual work / live coding                                      | **Deliverable 1 deadline**<br>Deliverable 2 clarifications                                |
-| 5    | **Assignment 1 deadline**                                                    | *Assignment 2 presentation*<br>Discussion about MVC / patterns                                    | Deliverable 1 late hand-ins<br>Deliverable 2 status update and clarifications             |
-| 6    | Discussion about patterns / MVC<br>Individual work / live coding             | Assignment 1 late hand-ins<br>Individual work / live coding                                       | Deliverable 1 late hand-ins<br>Deliverable 2 status update and clarifications             |
-| 7    | Assignment 2 clarifications<br>Individual work / live coding                 | Assignment 1 late hand-ins<br>Individual work / live coding                                       | **Deliverable 2 deadline**<br>Deliverable 3 clarifications                                |
-| 8    | **Assignment 2 deadline**                                                    | *Assignment 3 presentation*<br>Discussion about client-server / patterns                          | Deliverable 2 late hand-ins<br>Deliverable 3 status update and clarifications             |
-| 9    | Discussion about patterns / client - server<br>Individual work / live coding | Assignment 2 late hand-ins<br>Individual work / live coding                                       | Deliverable 2 late hand-ins<br>Deliverable 3 status update and clarifications             |
-| 10   | Assignment 3 clarifications<br>Individual work / live coding                 | Assignment 2 late hand-ins<br>Individual work / live coding                                       | **Deliverable 3 deadline**                                                                |
-| 11   | **Assignment 3 deadline**                                                    | Project clarifications and help                                                                   | Deliverable 3 late hand-ins<br>Project clarifications and help                            |
-| 12   | Assignment 3 late hand-ins<br>Project clarifications and help                | Assignment 3 late hand-ins<br>Project clarifications and help                                     | Deliverable 3 late hand-ins<br>Project clarifications and help                            |
-| 13   | Assignment 3 late hand-ins<br>**Final project delivery**                     | Assignment 3 late hand-ins<br>Final project delivery                                              | Final project delivery                                                                    |
-| 14   | **Final project delivery**                                                   | Final project delivery                                                                            | Final project delivery                                                                    |
+| Week | Laboratory Activities                                                                                            | Deadline(s)                         |
+|------|------------------------------------------------------------------------------------------------------------------|-------------------------------------|
+| 1    | Get to know each other<br>Introduction and rules<br>Revision OOP<br>Revision DB                                  | *None*                              |
+| 2    | *Assignment 1 presentation*<br>*Deliverables presentation*<br>Revision UML<br>SOLID<br>Picking assignment topic  | *None*                              |
+| 3    | Discussion about patterns / layers<br>Individual work / live coding (JDBC)                                       | *None*                              |
+| 4    | Clarifications (assignment 1, deliverables)<br>Individual work / live coding (JPA)                               | Deliverable 1 (17.03.2019 23:59)    |
+| 5    | **Assignment 1 grading**<br>*Assignment 2 presentation*                                                          | Assignment 1 (24.03.2019 23:59)     |
+| 6    | Discussion about patterns / MVC<br>Individual work / live coding                                                 | *None*                              |
+| 7    | Clarifications (assignment 2, deliverables)<br>Individual work / live coding                                     | Deliverable 2 (07.04.2019 23:59)    |
+| 8    | **Assignment 2 grading**<br>*Assignment 3 presentation*                                                          | Assignment 2 (14.04.2019 23:59)     |
+| 9    | Discussion about patterns / client - server<br>Individual work / live coding                                     | *None*                              |
+| 10   | Clarifications (assignment 2, project)<br>Individual work / live coding                                          | Deliverable 3 (05.05.2019 23:59)    |
+| 11   | **Assignment 3 grading**<br>Project (clarifications, individual work)                                            | Assignment 3 (12.05.2019 23:59)     |
+| 12   | Late hand-ins<br>Project (clarifications, individual work)                                                       | *None*                              |
+| 13   | **Project grading**                                                                                              | Project (26.05.2019 23:59)          |
+| 14   | **Project grading**                                                                                              |                                     |
 
-## Deadlines
-The deadline for each assignment / deliverable / project is **Sunday 23:59** before the deadline week's laboratory. For example, for assignment 1, the deadline is the Sunday before week 5 starts, at 23:59 (i.e. 24.03.2019 23:59).
+*The deadline for each assignment / deliverable / project is Sunday 23:59 before the deadline week's laboratory (such that the grading is mostly done before the laboratory session).*
 
 ## GitHub Classroom Assignments
 You must click on the below links to create a GitHub repository for submitting your assignments and project (deliverables, final documentation and code).
