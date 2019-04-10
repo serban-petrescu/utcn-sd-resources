@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
 
-import SmartStudentsList from './view/SmartStudentsList';
+import SmartRouter from './view/SmartRouter';
 
 const App = () => (
   <div className="App">
-    <SmartStudentsList />
+    <SmartRouter />
   </div>
 );
 

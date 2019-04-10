@@ -1,13 +1,15 @@
 import React, { Component } from "react";
 import model from "../model/model";
-import StudentsList from "./StudentsList";
-import studentsListPresenter from "../presenter/studentsListPresenter";
+
+import CreateStudent from "./CreateStudent";
+import createStudentPresenter from "../presenter/createStudentPresenter";
 
 const mapModelStateToComponentState = modelState => ({
-    students: modelState.students
+    firstName: modelState.newStudent.firstName,
+    lastName: modelState.newStudent.lastName
 });
 
-export default class SmartStudentsList extends Component {
+export default class SmartCreateStudent extends Component {
     constructor() {
         super();
         this.state = mapModelStateToComponentState(model.state);
@@ -21,10 +23,11 @@ export default class SmartStudentsList extends Component {
 
     render() {
         return (
-            <StudentsList 
-                onViewDetails={studentsListPresenter.onViewDetails}
-                onCreateStudent={studentsListPresenter.onCreateStudent}
-                students={this.state.students} />
+            <CreateStudent 
+                onCreate={createStudentPresenter.onCreate}
+                onChange={createStudentPresenter.onChange}
+                firstName={this.state.firstName}
+                lastName={this.state.lastName} />
         );
     }
 }

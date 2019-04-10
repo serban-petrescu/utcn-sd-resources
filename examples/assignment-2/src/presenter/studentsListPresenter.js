@@ -1,17 +1,14 @@
 import model from "../model/model";
 
 class StudentsListPresenter {
-
-    onCreate() {
-        model.addStudent(model.state.newStudent.firstName, model.state.newStudent.lastName);
-        model.changeNewStudentProperty("firstName", "");
-        model.changeNewStudentProperty("lastName", "");
+    onCreateStudent() {
+        model.changeRoute("create-student");
     }
 
-    onChange(property, value) {
-        model.changeNewStudentProperty(property, value);
+    onViewDetails(index) {
+        model.changeSelectedStudentIndex(index);
+        model.changeRoute("student-details");
     }
-
 }
 
 const studentsListPresenter = new StudentsListPresenter();

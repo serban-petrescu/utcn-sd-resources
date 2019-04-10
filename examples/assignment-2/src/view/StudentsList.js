@@ -1,26 +1,14 @@
 import React from "react";
 
-const StudentsList = ({ students, title, firstName, lastName, 
-    onCreate, onChange }) => (
+const StudentsList = ({ students, title, onCreateStudent, onViewDetails }) => (
     <div>
         <h2>{ title || "Students" }</h2>
-        <div>
-            <label>First Name: </label>
-            <input value={firstName} 
-                onChange={ e => onChange("firstName", e.target.value) } />
-            <br />
-            <label>Last Name: </label>
-            <input value={lastName} 
-                onChange={ e => onChange("lastName", e.target.value) } />
-            <br />
-            <button onClick={onCreate}>Create!</button>
-        </div>
-        <hr />
         <table border="1">
             <thead>
                 <tr>
                     <th>First Name</th>
                     <th>Last Name</th>
+                    <th></th>
                 </tr>
             </thead>
             <tbody>
@@ -29,11 +17,13 @@ const StudentsList = ({ students, title, firstName, lastName,
                         <tr key={index}>
                             <td>{student.firstName}</td>
                             <td>{student.lastName}</td>
+                            <td><button onClick={() => onViewDetails(index)}>View Details</button></td>
                         </tr>
                     ))
                 }
             </tbody>
         </table>
+        <button onClick={onCreateStudent}>Add new Student</button>
     </div>
 );
 

@@ -6,16 +6,36 @@ class Model extends EventEmitter {
         this.state = {
             students: [{
                 firstName: "John",
-                lastName: "Doe"
+                lastName: "Doe",
+                grades: [10, 10, 9]
             }, {
                 firstName: "Jack",
-                lastName: "White"
+                lastName: "White",
+                grades: [3, 4, 5]
             }],
             newStudent: {
                 firstName: "",
                 lastName: ""
-            }
+            },
+            route: "students-list",
+            selectedStudentIndex: -1
         };
+    }
+
+    changeSelectedStudentIndex(index) {
+        this.state = {
+            ...this.state,
+            selectedStudentIndex: index
+        };
+        this.emit("change", this.state);
+    }
+
+    changeRoute(route) {
+        this.state = {
+            ...this.state,
+            route: route
+        };
+        this.emit("change", this.state);
     }
 
     addStudent(firstName, lastName) {
@@ -23,7 +43,8 @@ class Model extends EventEmitter {
             ...this.state,
             students: this.state.students.concat([{
                 firstName: firstName,
-                lastName: lastName
+                lastName: lastName,
+                grades: []
             }])
         };
         this.emit("change", this.state);

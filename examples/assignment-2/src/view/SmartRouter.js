@@ -1,13 +1,12 @@
 import React, { Component } from "react";
 import model from "../model/model";
-import StudentsList from "./StudentsList";
-import studentsListPresenter from "../presenter/studentsListPresenter";
+import Router from "./Router";
 
 const mapModelStateToComponentState = modelState => ({
-    students: modelState.students
+    route: modelState.route
 });
 
-export default class SmartStudentsList extends Component {
+export default class SmartRouter extends Component {
     constructor() {
         super();
         this.state = mapModelStateToComponentState(model.state);
@@ -21,10 +20,7 @@ export default class SmartStudentsList extends Component {
 
     render() {
         return (
-            <StudentsList 
-                onViewDetails={studentsListPresenter.onViewDetails}
-                onCreateStudent={studentsListPresenter.onCreateStudent}
-                students={this.state.students} />
+            <Router route={this.state.route} />
         );
     }
 }
