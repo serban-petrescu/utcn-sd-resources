@@ -2,12 +2,11 @@ import model from "../model/model";
 
 class StudentsListPresenter {
     onCreateStudent() {
-        model.changeRoute("create-student");
+        window.location.assign("#/create-student");
     }
 
     onViewDetails(index) {
-        model.changeSelectedStudentIndex(index);
-        model.changeRoute("student-details");
+        window.location.assign("#/student-details/" + index);
     }
 }
 

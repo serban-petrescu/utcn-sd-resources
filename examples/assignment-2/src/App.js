@@ -1,11 +1,20 @@
 import React from 'react';
 import './App.css';
 
-import SmartRouter from './view/SmartRouter';
+import { HashRouter, Switch, Route } from "react-router-dom";
+import SmartStudentsList from './view/SmartStudentsList';
+import SmartCreateStudent from './view/SmartCreateStudent';
+import SmartStudentDetails from './view/SmartStudentDetails';
 
 const App = () => (
   <div className="App">
-    <SmartRouter />
+    <HashRouter>
+      <Switch>
+        <Route exact={true} component={SmartStudentsList} path="/" />
+        <Route exact={true} component={SmartCreateStudent} path="/create-student" />
+        <Route exact={true} component={SmartStudentDetails} path="/student-details/:index" />
+      </Switch>
+    </HashRouter>
   </div>
 );
 

@@ -6,7 +6,7 @@ class CreateStudentPresenter {
         model.addStudent(model.state.newStudent.firstName, model.state.newStudent.lastName);
         model.changeNewStudentProperty("firstName", "");
         model.changeNewStudentProperty("lastName", "");
-        model.changeRoute("students-list");
+        window.location.assign("#/");
     }
 
     onChange(property, value) {

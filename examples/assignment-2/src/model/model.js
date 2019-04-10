@@ -16,26 +16,8 @@ class Model extends EventEmitter {
             newStudent: {
                 firstName: "",
                 lastName: ""
-            },
-            route: "students-list",
-            selectedStudentIndex: -1
+            }
         };
-    }
-
-    changeSelectedStudentIndex(index) {
-        this.state = {
-            ...this.state,
-            selectedStudentIndex: index
-        };
-        this.emit("change", this.state);
-    }
-
-    changeRoute(route) {
-        this.state = {
-            ...this.state,
-            route: route
-        };
-        this.emit("change", this.state);
     }
 
     addStudent(firstName, lastName) {
