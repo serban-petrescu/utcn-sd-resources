@@ -13,6 +13,7 @@ Assignment presentations:
  * The [assignment topic presentation](https://slides.com/spet/utcn-sd-assignment-topic) [[live](https://slides.com/spet/utcn-sd-assignment-topic/live)] has information about the business topic of our assignments and its features.
  * The [assignment 1 presentation](https://slides.com/spet/utcn-sd-assignment-1) [[live](https://slides.com/spet/utcn-sd-assignment-1/live)] contains explanations about the layered architecture, the data source patterns, the domain logic patterns and the abstract factory design pattern.
  * The [assignment 2 presentation](https://slides.com/spet/utcn-sd-assignment-2) [[live](https://slides.com/spet/utcn-sd-assignment-2/live)] contains explanations about the MV* architecture patterns (MVC, MVP, MVVM) and the observer design pattern.
+ * The [assignment 3 presentation](https://slides.com/spet/utcn-sd-assignment-3) [[live](https://slides.com/spet/utcn-sd-assignment-3/live)] contains explanations about the client-server and REST architecture styles and the command design pattern.
 
 Project presentations:
  * The [project deliverables presentation](https://slides.com/spet/utcn-sd-deliverables) [[live](https://slides.com/spet/utcn-sd-deliverables/live)] has information about each document for the project deliverables.
