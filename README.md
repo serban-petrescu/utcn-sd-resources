@@ -58,9 +58,9 @@ You must click on the below links to create a GitHub repository for submitting y
  * Project: https://classroom.github.com/a/kPxIhQZn
  * Assignment 1: https://classroom.github.com/a/lZoe1WSR
  * Assignment 2: https://classroom.github.com/a/0RJl3y-r
- * Assignment 3: TBD
+ * Assignment 3: https://classroom.github.com/a/_L-vpMsU
 
 Make sure to commit and push your changes **before** the deadline. The last commit created before the deadline expires will be taken into account.
 
 ## Pull Request Policy
-From assignment 2 and deliverable 2 inclusive onwards, please create a `develop` branch (for the assignments it will be already created) and push your code on this branch. After you have committed and pushed your code, [create a pull request](https://help.github.com/en/articles/creating-a-pull-request) (between `develop` and `master`) and add me as a reviewer.  
+Please create a `develop` branch (for the assignments it will be already created) and push your code on this branch. After you have committed and pushed your code, [create a pull request](https://help.github.com/en/articles/creating-a-pull-request) from `develop` to `master` and add me as a reviewer.  
