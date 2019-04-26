@@ -33,22 +33,23 @@ All of the recordings may be found on this playlist: [UTCN Software Design 2019]
 
 
 ## Schedule 
-| Week | Laboratory Activities                                                                                            | Deadline(s)                         |
-|------|------------------------------------------------------------------------------------------------------------------|-------------------------------------|
-| 1    | Get to know each other<br>Introduction and rules<br>Revision OOP<br>Revision DB                                  | *None*                              |
-| 2    | *Assignment 1 presentation*<br>*Deliverables presentation*<br>Revision UML<br>SOLID<br>Picking assignment topic  | *None*                              |
-| 3    | Discussion about patterns / layers<br>Individual work / live coding (JDBC)                                       | *None*                              |
-| 4    | Clarifications (assignment 1, deliverables)<br>Individual work / live coding (JPA)                               | Deliverable 1 (17.03.2019 23:59)    |
-| 5    | **Assignment 1 grading**<br>*Assignment 2 presentation*                                                          | Assignment 1 (24.03.2019 23:59)     |
-| 6    | Discussion about patterns / MVC<br>Individual work / live coding                                                 | *None*                              |
-| 7    | Clarifications (assignment 2, deliverables)<br>Individual work / live coding                                     | Deliverable 2 (07.04.2019 23:59)    |
-| 8    | **Assignment 2 grading**<br>*Assignment 3 presentation*                                                          | Assignment 2 (14.04.2019 23:59)     |
-| 9    | Discussion about patterns / client - server<br>Individual work / live coding                                     | *None*                              |
-| 10   | Clarifications (assignment 2, project)<br>Individual work / live coding                                          | Deliverable 3 (05.05.2019 23:59)    |
-| 11   | **Assignment 3 grading**<br>Project (clarifications, individual work)                                            | Assignment 3 (12.05.2019 23:59)     |
-| 12   | Late hand-ins<br>Project (clarifications, individual work)                                                       | *None*                              |
-| 13   | **Project grading**                                                                                              | Project (26.05.2019 23:59)          |
-| 14   | **Project grading**                                                                                              |                                     |
+|         Week        | Laboratory Activities                                                                                            | Deadline(s)                         |
+|---------------------|------------------------------------------------------------------------------------------------------------------|-------------------------------------|
+| **1**. 25.02-03.03  | Get to know each other<br>Introduction and rules<br>Revision OOP<br>Revision DB                                  | *None*                              |
+| **2**. 04.03-10.03  | *Assignment 1 presentation*<br>*Deliverables presentation*<br>Revision UML<br>SOLID<br>Picking assignment topic  | *None*                              |
+| **3**. 11.03-17.03  | Discussion about patterns / layers<br>Individual work / live coding (JDBC)                                       | *None*                              |
+| **4**. 18.03-24.03  | Clarifications (assignment 1, deliverables)<br>Individual work / live coding (JPA)                               | Deliverable 1 (17.03.2019 23:59)    |
+| **5**. 25.03-31.03  | **Assignment 1 grading**<br>*Assignment 2 presentation*                                                          | Assignment 1 (24.03.2019 23:59)     |
+| **6**. 01.04-07.04  | Discussion about patterns / MVC<br>Individual work / live coding                                                 | *None*                              |
+| **7**. 08.04-14.04  | Clarifications (assignment 2, deliverables)<br>Individual work / live coding                                     | Deliverable 2 (07.04.2019 23:59)    |
+| **8**. 15.04-21.04  | **Assignment 2 grading**<br>*Assignment 3 presentation*                                                          | Assignment 2 (14.04.2019 23:59)     |
+| **9**. 22.04-28.04  | Discussion about patterns / client - server<br>Individual work / live coding                                     | *None*                              |
+| **-** 29.04-05.05   | *Spring Vacation*                                                                                                | *None*                              |         
+| **10**. 06.05-12.05 | Clarifications (assignment 2, project)<br>Individual work / live coding                                          | Deliverable 3 (05.05.2019 23:59)    |
+| **11**. 13.05-19.05 | **Assignment 3 grading**<br>Project (clarifications, individual work)                                            | Assignment 3 (12.05.2019 23:59)     |
+| **12**. 20.05-26.05 | Late hand-ins<br>Project (clarifications, individual work)                                                       | *None*                              |
+| **13**. 27.05-02.06 | **Project grading**                                                                                              | Project (26.05.2019 23:59)          |
+| **14**. 03.06-09.06 | **Project grading**                                                                                              |                                     |
 
 *The deadline for each assignment / deliverable / project is Sunday 23:59 before the deadline week's laboratory (such that the grading is mostly done before the laboratory session).*
 
