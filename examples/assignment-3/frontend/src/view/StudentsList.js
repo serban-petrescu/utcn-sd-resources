@@ -12,8 +12,8 @@ const StudentsList = ({ students, title, onCreateStudent }) => (
             </thead>
             <tbody>
                 {
-                    students.map((student) => (
-                        <tr key={student.id}>
+                    students.map((student, index) => (
+                        <tr key={index} data-cy="student">
                             <td>{student.firstName}</td>
                             <td>{student.lastName}</td>
                         </tr>
@@ -21,7 +21,7 @@ const StudentsList = ({ students, title, onCreateStudent }) => (
                 }
             </tbody>
         </table>
-        <button onClick={onCreateStudent}>Add new Student</button>
+        <button onClick={onCreateStudent} data-cy="add">Add new Student</button>
     </div>
 );
 

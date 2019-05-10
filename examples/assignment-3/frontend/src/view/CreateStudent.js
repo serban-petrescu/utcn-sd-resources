@@ -5,14 +5,14 @@ const CreateStudent = ({ firstName, lastName, onCreate, onChange }) => (
         <h2>Add Student</h2>
         <div>
             <label>First Name: </label>
-            <input value={firstName} 
+            <input value={firstName} data-cy="firstName"
                 onChange={ e => onChange("firstName", e.target.value) } />
             <br />
             <label>Last Name: </label>
-            <input value={lastName} 
+            <input value={lastName}  data-cy="lastName"
                 onChange={ e => onChange("lastName", e.target.value) } />
             <br />
-            <button onClick={onCreate}>Create!</button>
+            <button onClick={onCreate} data-cy="create">Create!</button>
         </div>
     </div>
 );

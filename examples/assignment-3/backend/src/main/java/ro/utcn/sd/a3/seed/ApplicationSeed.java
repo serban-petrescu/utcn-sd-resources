@@ -27,7 +27,7 @@ public class ApplicationSeed implements CommandLineRunner {
 
     @Override
     @Transactional
-    public void run(String... args) throws Exception {
+    public void run(String... args) {
         Teacher serban = new Teacher(0, "serban", passwordEncoder.encode("password"));
         teacherRepository.save(serban);
 
@@ -46,5 +46,12 @@ public class ApplicationSeed implements CommandLineRunner {
         gradeRepository.saveAll(grades);
 
         john.setGrades(grades);
+    }
+
+    @Transactional
+    public void clear() {
+        gradeRepository.deleteAll();
+        studentRepository.deleteAll();
+        teacherRepository.deleteAll();
     }
 }

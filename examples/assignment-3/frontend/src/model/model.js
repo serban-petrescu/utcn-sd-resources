@@ -1,7 +1,9 @@
 import { EventEmitter } from "events";
 import RestClient from "../rest/RestClient";
+import WebSocketListener from "../ws/WebSocketListener";
 
 const client = new RestClient("serban", "password");
+const listener = new WebSocketListener("serban", "password");
 
 class Model extends EventEmitter {
     constructor() {
@@ -27,13 +29,15 @@ class Model extends EventEmitter {
 
     addStudent(firstName, lastName) {
         return client.createStudent(firstName, lastName)
-            .then(student => {
-                this.state = { 
-                    ...this.state, 
-                    students: this.state.students.concat([student]) 
-                };
-                this.emit("change", this.state);
-            });
+            .then(student => this.appendStudent(student));
+    }
+
+    appendStudent(student) {
+        this.state = { 
+            ...this.state, 
+            students: this.state.students.concat([student]) 
+        };
+        this.emit("change", this.state);
     }
 
     changeNewStudentProperty(property, value) {
@@ -49,5 +53,11 @@ class Model extends EventEmitter {
 }
 
 const model = new Model();
+
+listener.on("event", event => {
+    if (event.type === "STUDENT_CREATED") {
+        model.appendStudent(event.student);
+    }
+});
 
 export default model;

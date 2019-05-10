@@ -1,0 +1,11 @@
+{
+  "name": "e2e",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "cypress open"
+  },
+  "dependencies": {
+    "cypress": "^3.2.0"
+  }
+}
